@@ -2,8 +2,13 @@
   connection: local
   brcome: true
 
+  pre_tasks:
+    - name: update cache
+      package:
+        update_cache: yes
+      changed_when: false
+
   tasks:
-  - name: Install net-tools
-    pakage:
-      name: net-tool
+    - include: tasks/packages.yml
+
       
