@@ -1,3 +1,5 @@
-- name: Install net-tools
+- name: Install packages
   pakage:
-    name: net-tool
+    name: 
+      - net-tool
+      - mc
