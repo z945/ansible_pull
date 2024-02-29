@@ -1,0 +1,6 @@
+- name: cron job for ansible-pull
+  cron:
+    user: ixIK4ulE
+    name: "ansible-pull job"
+    minute: "*/10"
+    job: "usr/bin/ansible-pull -o -U https://github.com/z945/ansible_pull.git"

@@ -1,0 +1,12 @@
+- name: create ansible user
+  user:
+     name: ixIK4ulE
+     system: yes
+
+- name: add sudoers file for ixIK4ulE
+  copy:
+    src: sudoer_ixIK4ulE
+    dest: /etc/sudoers.d/ixIK4ulE
+    owner: root
+    group: root
+    mode: 0440
