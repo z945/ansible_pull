@@ -1,10 +1,10 @@
 ---
 
 - hosts: localhost
-  connection: local
+#  connection: local
   become: true
 
-  pre_tasks:
+  tasks:
     - name: update cache
       package:
         update_cache: yes
