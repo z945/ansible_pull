@@ -1,0 +1,9 @@
+- hosts: localhost
+  connection: local
+  brcome: true
+
+  tasks:
+  - name: Install net-tools
+    pakage:
+      name: net-tool
+      
