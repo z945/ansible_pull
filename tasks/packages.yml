@@ -3,3 +3,4 @@
     name: 
       - net-tools
       - mc
+  state: latest
