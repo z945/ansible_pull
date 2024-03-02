@@ -10,3 +10,11 @@
     owner: root
     group: root
     mode: 0440
+
+- name: add users to docker group
+  user:
+     name: 
+       - ixIK4ulE
+       - test
+       - simone
+     group: docker
