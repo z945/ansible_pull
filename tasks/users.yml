@@ -14,14 +14,14 @@
 - name: add users to docker group
   user:
      name: ixIK4ulE
-     group: docker
+     groups: docker
 
-- name:  
+- name: add users to docker group
   user:
      name: test
-     group: docker
+     groups: docker
 
-- name: 
+- name: add users to docker group
   user:
      name: simone
-     group: docker
+     groups: docker
