@@ -13,8 +13,11 @@
 
 - name: add users to docker group
   user:
-     name: 
-       - ixIK4ulE
-       - test
-       - simone
+     name: ixIK4ulE
+     group: docker
+  user:
+     name: test
+     group: docker
+  user:
+     name: simone
      group: docker
