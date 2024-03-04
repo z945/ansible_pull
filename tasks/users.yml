@@ -11,14 +11,6 @@
     group: root
     mode: 0440
 
-- name: add sudoers file for test
-  copy:
-    src: sudoer_test
-    dest: /etc/sudoers.d/test
-    owner: root
-    group: root
-    mode: 0440
-
 - name: add users to docker group
   user:
      name: ixIK4ulE
